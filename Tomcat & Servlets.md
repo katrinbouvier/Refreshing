@@ -33,9 +33,11 @@
 >## `getWriter()`
 >Возвращает объект `PrintWriter`, который может отправлять символьный текст клиенту. Может быть вызван либо `getWriter()`, либо `getOutputStream()`, но не оба.
 >## `javax.servlet.http Package`
->При работе с сервлетами чаще будет испоь
+>При работе с сервлетами чаще будет испоьзоваться пакет `javax.servlet.http`, так как его функционал упрощает работу с HTTP запросами и ответами.
+>
 
+ - HttpServletRequest I
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NTA0MjE4NCwxMzY1ODg5NTI1LDE3Nz
+eyJoaXN0b3J5IjpbLTg0NzY5Nzk4MywxMzY1ODg5NTI1LDE3Nz
 AyNjUyMTQsLTEyODc5NzcxMTJdfQ==
 -->
