@@ -34,12 +34,11 @@
 >Возвращает объект `PrintWriter`, который может отправлять символьный текст клиенту. Может быть вызван либо `getWriter()`, либо `getOutputStream()`, но не оба.
 >## `javax.servlet.http Package`
 >При работе с сервлетами чаще будет испоьзоваться пакет `javax.servlet.http`, так как его функционал упрощает работу с HTTP запросами и ответами.
->
-
- - HttpServletRequest Interface дает возможность сервлету получать информацию о запросах клиентов
- - HttpServletResponse Interface дает возможность сервлету формировать HTTP ответ для клиента
- - HttpSession Interface дает возможность читать и записывать информацию о состоянии, которая ассоциируется с текущей HTTP сессией. 
+ - `HttpServletRequest Interface` дает возможность сервлету получать информацию о запросах клиентов;
+ - `HttpServletResponse Interface` дает возможность сервлету формировать HTTP ответ для клиента;
+ - `HttpSession Interface` дает возможность читать и записывать информацию о состоянии, которая ассоциируется с текущей HTTP сессией. 
+ >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM3MDYxMzI0LDEzNjU4ODk1MjUsMTc3MD
-I2NTIxNCwtMTI4Nzk3NzExMl19
+eyJoaXN0b3J5IjpbLTk1Njc3MDQ3MCwxMzY1ODg5NTI1LDE3Nz
+AyNjUyMTQsLTEyODc5NzcxMTJdfQ==
 -->
