@@ -27,6 +27,8 @@
 >4. Запустить Tomcat
 >5. В адресной строке localhost:8080//app/...
 
+>## `getWriter()`
+>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODc5NzcxMTJdfQ==
+eyJoaXN0b3J5IjpbMTc3MDI2NTIxNCwtMTI4Nzk3NzExMl19
 -->
