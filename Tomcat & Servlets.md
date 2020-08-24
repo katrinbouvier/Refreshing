@@ -39,7 +39,9 @@
  - `HttpSession Interface` дает возможность читать и записывать информацию о состоянии, которая ассоциируется с текущей HTTP сессией. 
  >Куки хранят информацию на стороне пользователя о его действиях. 
  >В инетрфейсе `HttpServletResponse` содержится метод `addCookie()`. Данные для куки включаются в заголовок HTTP ответа, который отсылается браузеру.
+
+>Класс `HttpServlet` расширяет `GenericServlet`.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjU5NzkyMDMsMTM2NTg4OTUyNSwxNz
-cwMjY1MjE0LC0xMjg3OTc3MTEyXX0=
+eyJoaXN0b3J5IjpbMTk0ODQ1MjAxMiwxMzY1ODg5NTI1LDE3Nz
+AyNjUyMTQsLTEyODc5NzcxMTJdfQ==
 -->
