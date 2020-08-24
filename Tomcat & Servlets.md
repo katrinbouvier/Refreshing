@@ -28,12 +28,12 @@
 >5. В адресной строке localhost:8080//app/...
 
 >## `Interface ServletResponse`
->Определяет объект для помощи сервлету в отправке ответа клиенту. Контейнер сервлета создает объект `ServletResponse` и передает его в качестве аргумента методу `service`. Чтобы отправить двоичные данные в теле MIME, использовать ServletOutputStream, возвращаемый getOutputStream(). Для отправки символьных данных использовать объект PrintWriter, возвращаемый getWriter(). Чтобы отправить смешанные данные -- использовать ServletOutputStream и вручную настроить символьные части.
+>Определяет объект для помощи сервлету в отправке ответа клиенту. Контейнер сервлета создает объект `ServletResponse` и передает его в качестве аргумента методу `service`. Чтобы отправить двоичные данные в теле MIME ответа, использовать `ServletOutputStream`, возвращаемый `getOutputStream()`. Для отправки символьных данных использовать объект `PrintWriter`, возвращаемый `getWriter()`. Чтобы отправить смешанные данные -- использовать `ServletOutputStream` и вручную настроить символьные части.
 >*MIME тип -- например, "text/plain; charset=UTF-8"
 >## `getWriter()`
 >Возвращает объект `PrintWriter`, который может отправлять символьный текст клиенту. Может быть вызван либо `getWriter()`, либо `getOutputStream()`, но не оба.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNzc3MjgxMCwxNzcwMjY1MjE0LC0xMj
+eyJoaXN0b3J5IjpbMTM2NTg4OTUyNSwxNzcwMjY1MjE0LC0xMj
 g3OTc3MTEyXX0=
 -->
