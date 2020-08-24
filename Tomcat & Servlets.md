@@ -36,8 +36,10 @@
 >При работе с сервлетами чаще будет испоьзоваться пакет `javax.servlet.http`, так как его функционал упрощает работу с HTTP запросами и ответами.
 >
 
- - HttpServletRequest I
+ - HttpServletRequest Interface дает возможность сервлету получать информацию о запросах клиентов
+ - HttpServletResponse Interface дает возможность сервлету формировать HTTP ответ для клиента
+ - H
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzY5Nzk4MywxMzY1ODg5NTI1LDE3Nz
+eyJoaXN0b3J5IjpbLTUzNjI5NDU5MiwxMzY1ODg5NTI1LDE3Nz
 AyNjUyMTQsLTEyODc5NzcxMTJdfQ==
 -->
