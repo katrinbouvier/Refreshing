@@ -38,8 +38,8 @@
 
  - HttpServletRequest Interface дает возможность сервлету получать информацию о запросах клиентов
  - HttpServletResponse Interface дает возможность сервлету формировать HTTP ответ для клиента
- - H
+ - HttpSession Interface дает возможность читать и записывать информацию о состоянии, которая ассоциируется с текущей HTTP сессией. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNjI5NDU5MiwxMzY1ODg5NTI1LDE3Nz
-AyNjUyMTQsLTEyODc5NzcxMTJdfQ==
+eyJoaXN0b3J5IjpbMjM3MDYxMzI0LDEzNjU4ODk1MjUsMTc3MD
+I2NTIxNCwtMTI4Nzk3NzExMl19
 -->
