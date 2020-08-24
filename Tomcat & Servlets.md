@@ -38,8 +38,8 @@
  - `HttpServletResponse Interface` дает возможность сервлету формировать HTTP ответ для клиента;
  - `HttpSession Interface` дает возможность читать и записывать информацию о состоянии, которая ассоциируется с текущей HTTP сессией. 
  >Куки хранят информацию на стороне пользователя о его действиях. 
- >D
+ >В инетрфейсе `HttpServletResponse` содержится метод `addCookie()`. Данные для куки включаются в заголовок HTTP ответа, который отсылается браузеру.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEzNDc5NzMyLDEzNjU4ODk1MjUsMTc3MD
-I2NTIxNCwtMTI4Nzk3NzExMl19
+eyJoaXN0b3J5IjpbLTE1MjU5NzkyMDMsMTM2NTg4OTUyNSwxNz
+cwMjY1MjE0LC0xMjg3OTc3MTEyXX0=
 -->
