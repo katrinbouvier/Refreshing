@@ -27,10 +27,12 @@
 >4. Запустить Tomcat
 >5. В адресной строке localhost:8080//app/...
 
+>## `Interface ServletResponse`
+>Определяет объект для помощи сервлету в отправке ответа клиенту. Контейнер сервлета создает объект Servlet
 >## `getWriter()`
 >Возвращает объект `PrintWriter`, который может отправлять символьный текст клиенту. Может быть вызван либо `getWriter()`, либо `getOutputStream()`, но не оба.
->## `Interface ServletResponse`
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc0NzMzNTAxLDE3NzAyNjUyMTQsLTEyOD
-c5NzcxMTJdfQ==
+eyJoaXN0b3J5IjpbNjI3MDM5MzgsMTc3MDI2NTIxNCwtMTI4Nz
+k3NzExMl19
 -->
