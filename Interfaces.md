@@ -1,0 +1,65 @@
+17/07/20
+>## Packages and Interfaces
+>**Пакеты** - это контейнеры для классов, они используются, чтобы сохранить пространство имен класса отделенным. 
+>
+>С помощью ключевого слова **interface** Java позволяет полностью абстрагировать интерфейс от его реализации. Используя интерфейс, можно определять набор методов, который затем реализуется одним или более классами. Интерфейс не содержит реализаций методов. Класс может реализовывать несколько интерфейсов, но не может наследоваться от нескольких абстрактных классов. 
+>Интерфейсы указывают классу что делать, но не указывают как. Интерфейсы разработаны, чтобы поддерживать динамическое разрешение методов во время исполнения. Интерфейсы разделяют определение метода (или набора методов) от иерархии наследования классов. 
+
+    interface Callback() {
+	    void callback(int param);
+    }
+
+    class Client implements Callback {
+	    // Implement Callback's interface
+	    public void callback(int p) {
+		    System.out.println("callback called with " + p);
+		}
+	    
+	    void nonIfaceMeth() {
+		    System.out.println("nonIfaceMeth() called");
+		}
+    }
+    
+    class TestIface {
+	    public static void main (String args[]) {
+		    Callback c = new Client();
+		    c.callback(42);
+	    }
+	}
+>Переменная `c` может быть использована, чтобы получить доступ к методу `callback()`, она не может обращаться к другим членам класса Client. Ссылочной переменной интерфейса известны только те методы, которые объявлены в объявлении **интерфейса**. 
+
+    class AnotherClient implements Callback {
+    	public void callback(int p) {
+    		System.out.println("p squared is " + (p*p));
+    		}
+    	}
+    }
+    
+    class TestIface2 {
+    	public static void main(String args[]) {
+    	Callback c = new Client();
+    	AnotherClient ac = new AnotherClient();
+    	c.callback(42);
+    	c = ac; // c now refers to AnotherClient object
+    	c.callback(42);
+    	}
+    }
+    
+>Версия `callback()`, которая будет вызвана, определяется типом объекта, на который ссылается `c` во время исполнения. 
+
+19/07/20
+>## Partial Implementations
+>Когда класс реализует интерфейс, но не полностью реализует все требуемые им методы, тогда этот класс должен быть объявлен как **абстрактный**.
+>
+
+    abstract class Incomplete implements Callback {
+    	int a, b;
+    	void show() {
+    		//...
+    	}
+    }
+>Любой класс, наследующийся от `Incomplete`, должен быть объявлен как `abstract` или реализовывать интерфейс `Callback`.
+>## Applying Interfaces
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNTA1NzE4ODY5XX0=
+-->
