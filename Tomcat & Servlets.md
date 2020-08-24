@@ -28,8 +28,8 @@
 >5. В адресной строке localhost:8080//app/...
 
 >## `getWriter()`
->Возвращает 
+>Возвращает объект `PrintWriter, который может отправлять символьный текст клиенту. Может быть вызван либо getWriter(), либо getOutputStream(), но не оба.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMTE2NDE5MywxNzcwMjY1MjE0LC0xMj
+eyJoaXN0b3J5IjpbMTA3NTk2ODAwOCwxNzcwMjY1MjE0LC0xMj
 g3OTc3MTEyXX0=
 -->
