@@ -32,8 +32,9 @@
 >*MIME тип -- например, "text/plain; charset=UTF-8"
 >## `getWriter()`
 >Возвращает объект `PrintWriter`, который может отправлять символьный текст клиенту. Может быть вызван либо `getWriter()`, либо `getOutputStream()`, но не оба.
+>## `javax.servlet.http`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTg4OTUyNSwxNzcwMjY1MjE0LC0xMj
-g3OTc3MTEyXX0=
+eyJoaXN0b3J5IjpbLTgyOTQyMzE1OCwxMzY1ODg5NTI1LDE3Nz
+AyNjUyMTQsLTEyODc5NzcxMTJdfQ==
 -->
