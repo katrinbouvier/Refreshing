@@ -37,8 +37,9 @@
  - `HttpServletRequest Interface` дает возможность сервлету получать информацию о запросах клиентов;
  - `HttpServletResponse Interface` дает возможность сервлету формировать HTTP ответ для клиента;
  - `HttpSession Interface` дает возможность читать и записывать информацию о состоянии, которая ассоциируется с текущей HTTP сессией. 
- >
+ >Куки хранят информацию на стороне пользователя о его действиях. 
+ >D
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1Njc3MDQ3MCwxMzY1ODg5NTI1LDE3Nz
-AyNjUyMTQsLTEyODc5NzcxMTJdfQ==
+eyJoaXN0b3J5IjpbMzEzNDc5NzMyLDEzNjU4ODk1MjUsMTc3MD
+I2NTIxNCwtMTI4Nzk3NzExMl19
 -->
