@@ -41,9 +41,10 @@
  >В инетрфейсе `HttpServletResponse` содержится метод `addCookie()`. Данные для куки включаются в заголовок HTTP ответа, который отсылается браузеру.
 
 >Класс `HttpServlet` расширяет `GenericServlet`.  
->Методы, определенные в классе `HttpServlet`: doDelete(), do
+>Методы, определенные в классе `HttpServlet`: `doDelete(), doGet(), doHead(), doOptions(), doPost(), doPut(), doTrace()`. Разработчик обычно переопределяет один из этих методов.
+>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3ODg3NTUzNCwxMzY1ODg5NTI1LDE3Nz
+eyJoaXN0b3J5IjpbLTI3MTc3NzQxOCwxMzY1ODg5NTI1LDE3Nz
 AyNjUyMTQsLTEyODc5NzcxMTJdfQ==
 -->
