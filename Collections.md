@@ -13,7 +13,7 @@
 > - E remove()
 >Элементы в очередь добавляются в голову. Разница между poll() и remove() в том, что poll() вернет null, если очередь пустая, а remove() выбросит исключение.
 >## The Deque Interface
->Определяет поведение очередь с двумя концами. Такие очереди могут вести себя как FIFO, и как LIFO. Это обобщеннный интерфейс, расширяет Queue. В Deque есть методы push() и pop(), которые позволяют очереди вести себя как стек.
+>Определяет поведение очереди с двумя концами. Такие очереди могут вести себя как FIFO, и как LIFO. Это обобщеннный интерфейс, расширяет Queue. В Deque есть методы push() и pop(), которые позволяют очереди вести себя как стек.
 >## Collection Classes
  - ArrayList Class
 > extends AbstractList and implements the List interface. Supports dynamic arrays. ArrayList is variable-length array of object references.
@@ -27,13 +27,13 @@
 > extends AbstractSet and implements NavigableSet interface. Создает коллекцию, которая использует для хранения дерево. Объекты хранятся в отсортированном по возрастанию порядке. Довольно быстрый поиск и получение элементов.
  - PriorityQueue Class
 > extends AbstractQueue and implements the Queue interface. Создает очередь, которая имеет приоритет, основанный на компараторе очереди. Изначально вместимость очереди - 11. Если не определен компаратор, используется дефолтный, который сортирует в порядке возрастания. **Осторожно: можно проходить по очереди, используя итератор, но порядок этой итерации не определен. Лучше использовать методы offer() и poll().**
-> - The ArrayDeque Class
+- The ArrayDeque Class
 > extends AbstractCollection and implements the Deque interface. Создает динамический массив и не имеет ограничесний по вместимости. 
 > - The EnumSet Class
 > extends AbstractSet and implements Set. Специально для использования с элементами типа enum.
-> 
+>## The Map Interface
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MTY0OTEwMywxMTI2MTQ1MzY1LDE3MD
-EwNDI5MiwxMTM3NDQ5NjAsLTE3NzUzOTAwNjQsLTI1MzA4MjAw
-NywtMTMxNzk3MTc2NCwtMTAyMjIxODY1MF19
+eyJoaXN0b3J5IjpbLTExNjA4MjgwNTUsMTEyNjE0NTM2NSwxNz
+AxMDQyOTIsMTEzNzQ0OTYwLC0xNzc1MzkwMDY0LC0yNTMwODIw
+MDcsLTEzMTc5NzE3NjQsLTEwMjIyMTg2NTBdfQ==
 -->
