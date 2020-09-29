@@ -11,8 +11,10 @@
 > - E peak()
 > - E poll()
 > - E remove()
->Элементы в очередь добавляются в голову. Разница между poll() и remove()
+>Элементы в очередь добавляются в голову. Разница между poll() и remove() в том, что poll() вернет null, если очередь пустая, а remove() выбросит исключение.
+>## The Deque Interface
+>Определяет поведение очередт с двумя концами. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MzA4ODI0NCwtMjUzMDgyMDA3LC0xMz
-E3OTcxNzY0LC0xMDIyMjE4NjUwXX0=
+eyJoaXN0b3J5IjpbOTc4MDg1NzQxLC0yNTMwODIwMDcsLTEzMT
+c5NzE3NjQsLTEwMjIyMTg2NTBdfQ==
 -->
