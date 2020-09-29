@@ -17,7 +17,10 @@
 >## Collection Classes
 > - ArrayList Class
 > extends AbstractList and implements the List interface. Supports dynamic arrays. ArrayList is variable-length array of object references.
+> - LinkedList Class
+> extends Abstra
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzQ0OTYwLC0xNzc1MzkwMDY0LC0yNT
-MwODIwMDcsLTEzMTc5NzE3NjQsLTEwMjIyMTg2NTBdfQ==
+eyJoaXN0b3J5IjpbLTU1MDM4ODcwNiwxMTM3NDQ5NjAsLTE3Nz
+UzOTAwNjQsLTI1MzA4MjAwNywtMTMxNzk3MTc2NCwtMTAyMjIx
+ODY1MF19
 -->
