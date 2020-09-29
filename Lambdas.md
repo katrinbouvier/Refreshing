@@ -28,10 +28,12 @@
 >## Generic Functional Interface
 
     interface SomeFunc<T> {
-    	T func(T);
+    	T func(T t);
     }
+>T 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzMzNjAzMywtMzg2MDA2MDA0XX0=
+eyJoaXN0b3J5IjpbMTY5MjE3MTk2OSwtMjAzMzM2MDMzLC0zOD
+YwMDYwMDRdfQ==
 -->
