@@ -1,9 +1,8 @@
 >## Logging
->
-
-    private static final Logger log = LoggerFactory.getLogger(CrudWithVaadinApplication.class);
+```java
+    private static final Logger log = LoggerFactory.getLogger(Application.class);
     log.info("Some info");
-
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjA3MTg4MDRdfQ==
+eyJoaXN0b3J5IjpbLTUxMTc3MjQwMywtMTY2MDcxODgwNF19
 -->
