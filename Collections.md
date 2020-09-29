@@ -33,11 +33,11 @@
 > extends AbstractSet and implements Set. Специально для использования с элементами типа enum.
 >## The Map Interface
 >Сопоставляет уникальные ключи со значениями. Ключ -- это объект, по которому в дальнейшем можно получить значение. Мапы -- часть Collection Framework, но они не являются коллекциями. С помощью метода entrySet() можно получить мап как коллекцию. 
->## The SortedMap Interface
+ - The SortedMap Interface
 >Обеспечивает порядок записей по возрастанию, основываясь на ключах. 
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTQ3Mzg3MTIsMTEyNjE0NTM2NSwxNz
-AxMDQyOTIsMTEzNzQ0OTYwLC0xNzc1MzkwMDY0LC0yNTMwODIw
-MDcsLTEzMTc5NzE3NjQsLTEwMjIyMTg2NTBdfQ==
+eyJoaXN0b3J5IjpbMTU2NDY4ODcyMSwxMTI2MTQ1MzY1LDE3MD
+EwNDI5MiwxMTM3NDQ5NjAsLTE3NzUzOTAwNjQsLTI1MzA4MjAw
+NywtMTMxNzk3MTc2NCwtMTAyMjIxODY1MF19
 -->
