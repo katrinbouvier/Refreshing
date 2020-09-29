@@ -28,8 +28,10 @@
 > Лямбда может выбросить проверяемое исключение, только если оно перечислено в абстрактном методе функционального интерфейса.
 >## Method References
 >Ссылка на метод позволяет ссылаться на метод без его выполнения. 
->Чтобы сослаться на статический метод используют `ClassName::methodName`. 
-out = StringOp(MyString)
+>Чтобы сослаться на статический метод используют `ClassName::methodName`:
+
+`out = StringOp(MyStringsOp::strReverse, in);`
+> 
 >## Generic Functional Interface
 
     interface SomeFunc<T> {
@@ -39,6 +41,6 @@ out = StringOp(MyString)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc4MDYzNDMyLC04NTc0OTkzMTIsLTIwMz
-MzNjAzMywtMzg2MDA2MDA0XX0=
+eyJoaXN0b3J5IjpbNTkwMDE0MDUsLTg1NzQ5OTMxMiwtMjAzMz
+M2MDMzLC0zODYwMDYwMDRdfQ==
 -->
