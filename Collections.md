@@ -26,9 +26,10 @@
  - The TreeSet Class
 > extends AbstractSet and implements NavigableSet interface. Создает коллекцию, которая использует для хранения дерево. Объекты хранятся в отсортированном по возрастанию порядке. Довольно быстрый поиск и получение элементов.
  - PriorityQueue Class
-> extends AbstractQueue and implements the Queue interface. Создает очередь, которая имеет приоритет, основанный на компараторе очереди. 
+> extends AbstractQueue and implements the Queue interface. Создает очередь, которая имеет приоритет, основанный на компараторе очереди. Изначально вместимость очереди - 11. Если не определен компаратор, используется дефолтный, который сортирует в порядке убыва
+> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNjE0NTM2NSwxNzAxMDQyOTIsMTEzNz
-Q0OTYwLC0xNzc1MzkwMDY0LC0yNTMwODIwMDcsLTEzMTc5NzE3
-NjQsLTEwMjIyMTg2NTBdfQ==
+eyJoaXN0b3J5IjpbLTkyNTE4OTgzNywxMTI2MTQ1MzY1LDE3MD
+EwNDI5MiwxMTM3NDQ5NjAsLTE3NzUzOTAwNjQsLTI1MzA4MjAw
+NywtMTMxNzk3MTc2NCwtMTAyMjIxODY1MF19
 -->
