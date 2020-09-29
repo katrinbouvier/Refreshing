@@ -111,22 +111,21 @@
     }
 ```
 > В классе `Thread` определены несколько методов, которые могут быть перегружены наследующим классом. Среди них обязательно перегружать только метод `run()`. Если вы не хотите перегужать другие методы класса `Thread`, то лучше использовать интерфейс `Runnable`. Также, реаализуя `Runnable`, не нужно наследоваться от класса `Thread`, следовательно, можно наследоваться от какого-либо другого класса. 
->[Fork/Join Framework in Java 7] (https://habr.com/ru/post/128985/)
+>[Fork/Join Framework in Java 7](https://habr.com/ru/post/128985/)
 >## `isAlive()` & `join()`
 >Есть 2 способа определить, завершился ли поток. Первый - вызвать `isAlive()` для потока исполнения. Этот метод определен в классе `Thread` и возвращает значение типа `boolean`. Более используемый подход - метод `join()`. Этот метод ожидает, пока поток, для которого он вызван, не завершится. 
 >## Using a Factory Method
 >Фабричный метод - это метод, который возвращает объект класса. Такие методы используются, когда нужно: задать объекту начальное состояние перед использованием или повторно использовать объект. Фабричный метод создаст поток исполнения, вызовет метод start() для него, а затем вернет ссылку на созданный поток. 
 >
-
-	    //a factory method that creates and starts a thread
-       public static NewThread createAndStart() {
-        	NewThread myThrd = new NewThread();
-        	myThrd.t.start();
-        	return myThrd;
-        }
-        
-       NewThread nt = NewThread.createAndStart();
-
+```java
+//a factory method that creates and starts a thread
+  public static NewThread createAndStart() {
+   	NewThread myThrd = new NewThread();
+   	myThrd.t.start();
+   	return myThrd;
+   }
+   NewThread nt = NewThread.createAndStart();
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MzA2ODgzMywxODg2MzEzMjA4XX0=
+eyJoaXN0b3J5IjpbMTQ0OTIwMDE0NywxODg2MzEzMjA4XX0=
 -->
