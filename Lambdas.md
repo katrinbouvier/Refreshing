@@ -39,19 +39,20 @@ out = StringOp(MyStringsOps::strReverse, in);
 ```
 > Для вызова метода экземпляра(instance method) сначала нужно создать экземпляр класса, а затем использовать `::`.
 ```java
-`MyStringOps strOps = new MyStringOps();`
-`out = StringOp(strOps::strReverse, in);`
+MyStringOps strOps = new MyStringOps();
+out = StringOp(strOps::strReverse, in);
 ```
 >Для дженерик методов используется `className::<anyType>metodName`
 >## Generic Functional Interface
-
+```java
     interface SomeFunc<T> {
     	T func(T t);
     }
+```
 >T определяет и тип параметра, и тип возвращаемого значения, поэтому интерфейс сопоставим с лямбда-выражением.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMzg0NTA2NywtMTYxMTU0Mjk2OSwtOD
+eyJoaXN0b3J5IjpbMTA0NDI1NDc2MywtMTYxMTU0Mjk2OSwtOD
 U3NDk5MzEyLC0yMDMzMzYwMzMsLTM4NjAwNjAwNF19
 -->
