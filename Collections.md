@@ -6,8 +6,8 @@
 >Map -- это отдельный интерфейс, в Collection не входит.  Иерархия `TreeMap<K, V>` схожа с `TreeSet<E>`.
 >## The Queue Interface
 >Обобщенный интерфейс, расширяет базовый интерфейс Collection и определяет поведение очереди. В Queue определены методы:
-> - 
+> - E element()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MzA4MjAwNywtMTMxNzk3MTc2NCwtMT
-AyMjIxODY1MF19
+eyJoaXN0b3J5IjpbMTk1NjYzNzIyNSwtMjUzMDgyMDA3LC0xMz
+E3OTcxNzY0LC0xMDIyMjE4NjUwXX0=
 -->
