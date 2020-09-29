@@ -29,7 +29,7 @@
 > 2. Обычно этот поток завершается последним, так как он выполняет различные завершающие действия.
 >
 >Хотя главный поток создается автоматически, его можно контролировать с помощью объекта Thread:
-
+```java
     public static void main(String [] args) {
 	    Thread t = Thread.currentThread();
 	    t.setName("MyThread");
@@ -42,8 +42,9 @@
 		  System.out.println("Main Thread Interrupted");
 		  }
 	}
+```
 >## Creating a Thread by implementing `Runnable`
-
+```java
     class NewThread implements Runnable {
     	Thread t;
     	
@@ -77,9 +78,9 @@
 			  }
 		}
 	}
-	
+```
 >## Creating a Thread by extending `Thread`
-
+```java
     class NewThread extends Thread {
     	NewThread() {
     		super("Demo Thread");
@@ -108,9 +109,9 @@
     		}
     	}
     }
-    
+```
 > В классе `Thread` определены несколько методов, которые могут быть перегружены наследующим классом. Среди них обязательно перегружать только метод `run()`. Если вы не хотите перегужать другие методы класса `Thread`, то лучше использовать интерфейс `Runnable`. Также, реаализуя `Runnable`, не нужно наследоваться от класса `Thread`, следовательно, можно наследоваться от какого-либо другого класса. 
->Fork/Join Framework in Java 7: [https://habr.com/ru/post/128985/](https://habr.com/ru/post/128985/)
+>[Fork/Join Framework in Java 7] (https://habr.com/ru/post/128985/)
 >## `isAlive()` & `join()`
 >Есть 2 способа определить, завершился ли поток. Первый - вызвать `isAlive()` для потока исполнения. Этот метод определен в классе `Thread` и возвращает значение типа `boolean`. Более используемый подход - метод `join()`. Этот метод ожидает, пока поток, для которого он вызван, не завершится. 
 >## Using a Factory Method
@@ -127,5 +128,5 @@
        NewThread nt = NewThread.createAndStart();
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NjMxMzIwOF19
+eyJoaXN0b3J5IjpbMTY2MzA2ODgzMywxODg2MzEzMjA4XX0=
 -->
