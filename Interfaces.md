@@ -68,12 +68,10 @@
 >`class ArrayList<E>` **-extends->** `abstract class AbstractList<E>` **-extends->** `class AbstractCollection<E>`
 >Interface can extend another interface. Example:
 >`interface List<E>` **-extends->** `interface Collection<E>` **-extends->** `interface Iterable<E>`
->`Iterable<E>` extends: `Collection<E>`. `Collection<E>` extends: `List<E>, Set<E>, Queue<E>`.
->From `Map<K, V>` extends: `SortedMap<K, V>`. Implements: `HashMap<K, V>, AbstractMap<K, V>`.
->
+>[Number 4 is schema of Iterable hierarchy](https://javastudy.ru/interview/collections/)
 			
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzE5NDU1NzUsLTIxMDYwMDA1NDAsLT
-IwMTkxMjgyNzgsNzA3Mjg5MzIsLTE3ODY0NjYxNDYsNTA1NzE4
-ODY5XX0=
+eyJoaXN0b3J5IjpbMjMwNTc1OTc1LC0yMTA2MDAwNTQwLC0yMD
+E5MTI4Mjc4LDcwNzI4OTMyLC0xNzg2NDY2MTQ2LDUwNTcxODg2
+OV19
 -->
