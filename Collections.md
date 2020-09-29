@@ -30,10 +30,10 @@
 > - The ArrayDeque Class
 > extends AbstractCollection and implements the Deque interface. Создает динамический массив и не имеет ограничесний по вместимости. 
 > - The EnumSet Class
-> extends AbstractSet and implements Set. Специа
+> extends AbstractSet and implements Set. Специально для использования с элементами типа enum.
 > 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM1OTYzMDEsMTEyNjE0NTM2NSwxNzAxMD
-QyOTIsMTEzNzQ0OTYwLC0xNzc1MzkwMDY0LC0yNTMwODIwMDcs
-LTEzMTc5NzE3NjQsLTEwMjIyMTg2NTBdfQ==
+eyJoaXN0b3J5IjpbMTA1MTY0OTEwMywxMTI2MTQ1MzY1LDE3MD
+EwNDI5MiwxMTM3NDQ5NjAsLTE3NzUzOTAwNjQsLTI1MzA4MjAw
+NywtMTMxNzk3MTc2NCwtMTAyMjIxODY1MF19
 -->
