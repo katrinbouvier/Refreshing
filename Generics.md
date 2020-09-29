@@ -101,13 +101,14 @@
     boolean sameAvg(Stats<?> ob) {
     	//...
     }
-`
+```
 >Можно ограничить метасимволы подстановки, например:
-
+```java
     static void showXYZ(Coords<? extends ThreeD> c) {
     	//...
     }
-
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc5NDg4NDAsLTEzMDI5MTQxMjZdfQ==
+eyJoaXN0b3J5IjpbLTEyNzE0OTk0MTgsLTEzMDI5MTQxMjZdfQ
+==
 -->
