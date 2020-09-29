@@ -30,8 +30,11 @@
 >Ссылка на метод позволяет ссылаться на метод без его выполнения. 
 >Чтобы сослаться на статический метод используют `ClassName::methodName`:
 
-`out = StringOp(MyStringsOp::strReverse, in);`
-> Для вызова метода экземпляра(instance method) сначала нужно создать экземпляр класса, а затем использовать ::
+`out = StringOp(MyStringsOps::strReverse, in);`
+> Для вызова метода экземпляра(instance method) сначала нужно создать экземпляр класса, а затем использовать `::`.
+
+`MyStringOps strOps = new MyStringOps();`
+`out = StringOp(strOps::strReverse, in);`
 >## Generic Functional Interface
 
     interface SomeFunc<T> {
@@ -41,6 +44,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODM2MDM3MDcsLTg1NzQ5OTMxMiwtMj
-AzMzM2MDMzLC0zODYwMDYwMDRdfQ==
+eyJoaXN0b3J5IjpbLTgwODI3ODc3MCwtODU3NDk5MzEyLC0yMD
+MzMzYwMzMsLTM4NjAwNjAwNF19
 -->
