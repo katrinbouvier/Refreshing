@@ -68,9 +68,10 @@
 >`class ArrayList<E>` **-extends->** `abstract class AbstractList<E>` **-extends->** `class AbstractCollection<E>`
 >Interface can extend another interface. Example:
 >`interface List<E>` **-extends->** `interface Collection<E>` **-extends->** `interface Iterable<E>`
->
+>От 
 			
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDYwMDA1NDAsLTIwMTkxMjgyNzgsNz
-A3Mjg5MzIsLTE3ODY0NjYxNDYsNTA1NzE4ODY5XX0=
+eyJoaXN0b3J5IjpbNjU1NzEzMDg4LC0yMTA2MDAwNTQwLC0yMD
+E5MTI4Mjc4LDcwNzI4OTMyLC0xNzg2NDY2MTQ2LDUwNTcxODg2
+OV19
 -->
