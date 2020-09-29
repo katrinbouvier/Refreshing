@@ -53,16 +53,28 @@
 >Когда класс реализует интерфейс, но не полностью реализует все требуемые им методы, тогда этот класс должен быть объявлен как **абстрактный**.
 >
 
-    abstract class Incomplete implements Callback {
-    	int a, b;
-    	void show() {
-    		//...
-    	}
-    }
+     ```java
+     abstract class Incomplete implements Callback {
+        	int a, b;
+        	void show() {
+        		//...
+        	}
+        }```
+```
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+```
+
 >Любой класс, наследующийся от `Incomplete`, должен быть объявлен как `abstract` или реализовывать интерфейс `Callback`.
 >Абстрактный класс отличается от интерфейса тем, что содержит состояние и поведение. Интерфейс содержит только поведение.
 >## Applying Interfaces
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTQ0MjEwNCwtMTc4NjQ2NjE0Niw1MD
-U3MTg4NjldfQ==
+eyJoaXN0b3J5IjpbLTExMTMwMTgyMTgsLTE3ODY0NjYxNDYsNT
+A1NzE4ODY5XX0=
 -->
