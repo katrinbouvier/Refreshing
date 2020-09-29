@@ -26,9 +26,12 @@
 > Функциональные интерфейсы следует помечать аннотацией @FunctionalInterface (purely informational). Компилятор в этом случае проверяет, что аннотируемый элемент является интерфейсом с единственным абстрактным методом. Также, страница документирующих комментариев включает в себя пояснение, что объявляемый интерфейс является функциональным.
 > Лямбда должна быть сопоставима с абстрактным методом, который она реализует.
 >## Generic Functional Interface
-interface SomeFunc<T> {
-	T g
-}
+
+    interface SomeFunc<T> {
+    	T func(T);
+    }
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDQ3MTY5NDIsLTM4NjAwNjAwNF19
+eyJoaXN0b3J5IjpbLTIwMzMzNjAzMywtMzg2MDA2MDA0XX0=
 -->
