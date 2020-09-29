@@ -24,9 +24,9 @@
 > - LinkedHashSet Class
 > extends HashSet. Сохраняет связный список в том порядке, в котором элементы положили.
 > - The TreeSet Class
-> extends AbstractSet and implements NavigableSet
+> extends AbstractSet and implements NavigableSet interface. Создает коллекцию, котор
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgxMDc4NDIyLDE3MDEwNDI5MiwxMTM3ND
-Q5NjAsLTE3NzUzOTAwNjQsLTI1MzA4MjAwNywtMTMxNzk3MTc2
-NCwtMTAyMjIxODY1MF19
+eyJoaXN0b3J5IjpbLTE4NDk2MjE4NywxNzAxMDQyOTIsMTEzNz
+Q0OTYwLC0xNzc1MzkwMDY0LC0yNTMwODIwMDcsLTEzMTc5NzE3
+NjQsLTEwMjIyMTg2NTBdfQ==
 -->
