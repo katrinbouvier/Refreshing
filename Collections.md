@@ -18,9 +18,9 @@
 > - ArrayList Class
 > extends AbstractList and implements the List interface. Supports dynamic arrays. ArrayList is variable-length array of object references.
 > - LinkedList Class
-> extends Abstra
+> extends AbstractSequentialList and implements the List, Deque and Queue interfaces. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MDM4ODcwNiwxMTM3NDQ5NjAsLTE3Nz
-UzOTAwNjQsLTI1MzA4MjAwNywtMTMxNzk3MTc2NCwtMTAyMjIx
-ODY1MF19
+eyJoaXN0b3J5IjpbMTcwMTA0MjkyLDExMzc0NDk2MCwtMTc3NT
+M5MDA2NCwtMjUzMDgyMDA3LC0xMzE3OTcxNzY0LC0xMDIyMjE4
+NjUwXX0=
 -->
