@@ -20,8 +20,9 @@
 > - LinkedList Class
 > extends AbstractSequentialList and implements the List, Deque and Queue interfaces. Linked-list data structure.
 > - HashSet Class 
+> extends AbstractSet and implements Set interface. Created  a collection, that uses a hash table for storage. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3Mzg4ODg0NiwxNzAxMDQyOTIsMTEzNz
+eyJoaXN0b3J5IjpbMTIwODUyMzQ4NiwxNzAxMDQyOTIsMTEzNz
 Q0OTYwLC0xNzc1MzkwMDY0LC0yNTMwODIwMDcsLTEzMTc5NzE3
 NjQsLTEwMjIyMTg2NTBdfQ==
 -->
