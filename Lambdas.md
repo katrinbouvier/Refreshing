@@ -20,6 +20,7 @@
 
 // Вызываем `getValue()`, который реализован заранее присвоенным лямбда-выражением
 `System.out.println(myNum.getValue());`
+> Функциональные методы следует помечать аннотацией @Fu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NjAwNjAwNF19
+eyJoaXN0b3J5IjpbMTUwNTEzOTQ0NiwtMzg2MDA2MDA0XX0=
 -->
