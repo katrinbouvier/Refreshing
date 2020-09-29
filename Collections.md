@@ -16,8 +16,8 @@
 >Определяет поведение очередь с двумя концами. Такие очереди могут вести себя как FIFO, и как LIFO. Это обобщеннный интерфейс, расширяет Queue. В Deque есть методы push() и pop(), которые позволяют очереди вести себя как стек.
 >## Collection Classes
 > - ArrayList Class
-> extends AbstractList and implements the List interface. Supports dynamic arrays. 
+> extends AbstractList and implements the List interface. Supports dynamic arrays. ArrayList is variable-length array of object references.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3OTY5ODk5MSwtMTc3NTM5MDA2NCwtMj
-UzMDgyMDA3LC0xMzE3OTcxNzY0LC0xMDIyMjE4NjUwXX0=
+eyJoaXN0b3J5IjpbMTEzNzQ0OTYwLC0xNzc1MzkwMDY0LC0yNT
+MwODIwMDcsLTEzMTc5NzE3NjQsLTEwMjIyMTg2NTBdfQ==
 -->
