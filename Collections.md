@@ -7,7 +7,12 @@
 >## The Queue Interface
 >Обобщенный интерфейс, расширяет базовый интерфейс Collection и определяет поведение очереди. В Queue определены методы:
 > - E element()
+> - boolean offer(E obj)
+> - E peak()
+> - E poll()
+> - E remove()
+> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NjYzNzIyNSwtMjUzMDgyMDA3LC0xMz
+eyJoaXN0b3J5IjpbMjEwMjUwMTcxNCwtMjUzMDgyMDA3LC0xMz
 E3OTcxNzY0LC0xMDIyMjE4NjUwXX0=
 -->
