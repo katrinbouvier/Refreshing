@@ -31,7 +31,7 @@
 >Чтобы сослаться на статический метод используют `ClassName::methodName`:
 
 `out = StringOp(MyStringsOp::strReverse, in);`
-> 
+> Для вызова метода экземпляра(instance method) сначала нужно создать экземпляр класса, а затем использовать ::
 >## Generic Functional Interface
 
     interface SomeFunc<T> {
@@ -41,6 +41,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkwMDE0MDUsLTg1NzQ5OTMxMiwtMjAzMz
-M2MDMzLC0zODYwMDYwMDRdfQ==
+eyJoaXN0b3J5IjpbLTE4ODM2MDM3MDcsLTg1NzQ5OTMxMiwtMj
+AzMzM2MDMzLC0zODYwMDYwMDRdfQ==
 -->
