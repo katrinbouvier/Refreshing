@@ -15,20 +15,20 @@
 >## The Deque Interface
 >Определяет поведение очередь с двумя концами. Такие очереди могут вести себя как FIFO, и как LIFO. Это обобщеннный интерфейс, расширяет Queue. В Deque есть методы push() и pop(), которые позволяют очереди вести себя как стек.
 >## Collection Classes
-> - ArrayList Class
+ - ArrayList Class
 > extends AbstractList and implements the List interface. Supports dynamic arrays. ArrayList is variable-length array of object references.
-> - LinkedList Class
+ - LinkedList Class
 > extends AbstractSequentialList and implements the List, Deque and Queue interfaces. Linked-list data structure.
-> - HashSet Class 
+ - HashSet Class 
 > extends AbstractSet and implements Set interface. Created  a collection, that uses a hash table for storage. Хэшинг -- информационный контент ключа используется, чтобы определить уникальное значение, которое называется хэш код. Хэш код затем используется, как индекс, с котором ассоциированы данные, относящиеся к ключу. Хэширование происходит автоматически. HashSet не гарантирует последовательность элементов, так как процесс хэшинга обычно не сопровождается созданием отсортированного набора. (как положили, можем и не получить) Чтобы сохранить последовательность лучше использовать TreeSet.
-> - LinkedHashSet Class
+ - LinkedHashSet Class
 > extends HashSet. Сохраняет связный список в том порядке, в котором элементы положили.
-> - The TreeSet Class
+ - The TreeSet Class
 > extends AbstractSet and implements NavigableSet interface. Создает коллекцию, которая использует для хранения дерево. Объекты хранятся в отсортированном по возрастанию порядке. Довольно быстрый поиск и получение элементов.
-> - PriorityQueue Class
-> extends AbstractQueue 
+ - PriorityQueue Class
+> extends AbstractQueue and implements the Queue interface. Создает очередь 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU4MzQ3NDEwLDE3MDEwNDI5MiwxMTM3ND
-Q5NjAsLTE3NzUzOTAwNjQsLTI1MzA4MjAwNywtMTMxNzk3MTc2
-NCwtMTAyMjIxODY1MF19
+eyJoaXN0b3J5IjpbLTE1MzM2MjQ1MDQsMTcwMTA0MjkyLDExMz
+c0NDk2MCwtMTc3NTM5MDA2NCwtMjUzMDgyMDA3LC0xMzE3OTcx
+NzY0LC0xMDIyMjE4NjUwXX0=
 -->
