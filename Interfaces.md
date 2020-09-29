@@ -68,10 +68,10 @@
 >`class ArrayList<E>` **-extends->** `abstract class AbstractList<E>` **-extends->** `class AbstractCollection<E>`
 >Interface can extend another interface. Example:
 >`interface List<E>` **-extends->** `interface Collection<E>` **-extends->** `interface Iterable<E>`
->[Number 4 is schema of Iterable hierarchy](https://javastudy.ru/interview/collections/)
+
 			
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMwNTc1OTc1LC0yMTA2MDAwNTQwLC0yMD
+eyJoaXN0b3J5IjpbNjYyMDEyMjIyLC0yMTA2MDAwNTQwLC0yMD
 E5MTI4Mjc4LDcwNzI4OTMyLC0xNzg2NDY2MTQ2LDUwNTcxODg2
 OV19
 -->
