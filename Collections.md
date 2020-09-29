@@ -36,9 +36,9 @@
  - The SortedMap Interface
 >Обеспечивает порядок записей по возрастанию, основываясь на ключах. 
  - The NavigableMap Interface
->
+>Мап, поддерживающий получение записей по самому близкому совпадению с ключом.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDU4NjI2MDMsMTEyNjE0NTM2NSwxNz
-AxMDQyOTIsMTEzNzQ0OTYwLC0xNzc1MzkwMDY0LC0yNTMwODIw
-MDcsLTEzMTc5NzE3NjQsLTEwMjIyMTg2NTBdfQ==
+eyJoaXN0b3J5IjpbMTU1MjQyMTk0NiwxMTI2MTQ1MzY1LDE3MD
+EwNDI5MiwxMTM3NDQ5NjAsLTE3NzUzOTAwNjQsLTI1MzA4MjAw
+NywtMTMxNzk3MTc2NCwtMTAyMjIxODY1MF19
 -->
