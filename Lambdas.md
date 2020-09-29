@@ -30,10 +30,10 @@
     interface SomeFunc<T> {
     	T func(T t);
     }
->T 
+>T определяет и тип параметра, и тип возвращаемого значения, поэт
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MjE3MTk2OSwtMjAzMzM2MDMzLC0zOD
-YwMDYwMDRdfQ==
+eyJoaXN0b3J5IjpbNzkwOTQ4MDI5LC0yMDMzMzYwMzMsLTM4Nj
+AwNjAwNF19
 -->
