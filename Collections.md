@@ -28,10 +28,12 @@
  - PriorityQueue Class
 > extends AbstractQueue and implements the Queue interface. Создает очередь, которая имеет приоритет, основанный на компараторе очереди. Изначально вместимость очереди - 11. Если не определен компаратор, используется дефолтный, который сортирует в порядке возрастания. **Осторожно: можно проходить по очереди, используя итератор, но порядок этой итерации не определен. Лучше использовать методы offer() и poll().**
 > - The ArrayDeque Class
-> 
+> extends AbstractCollection and implements the Deque interface. Создает динамический массив и не имеет ограничесний по вместимости. 
+> - The EnumSet Class
+> extends AbstractSet and implements Set. Специа
 > 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMzY1NjkyMiwxMTI2MTQ1MzY1LDE3MD
-EwNDI5MiwxMTM3NDQ5NjAsLTE3NzUzOTAwNjQsLTI1MzA4MjAw
-NywtMTMxNzk3MTc2NCwtMTAyMjIxODY1MF19
+eyJoaXN0b3J5IjpbMzM1OTYzMDEsMTEyNjE0NTM2NSwxNzAxMD
+QyOTIsMTEzNzQ0OTYwLC0xNzc1MzkwMDY0LC0yNTMwODIwMDcs
+LTEzMTc5NzE3NjQsLTEwMjIyMTg2NTBdfQ==
 -->
