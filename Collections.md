@@ -11,8 +11,8 @@
 > - E peak()
 > - E poll()
 > - E remove()
-> 
+>Элементы в очередь добавляются в голову. Разница между poll() и remove()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMjUwMTcxNCwtMjUzMDgyMDA3LC0xMz
+eyJoaXN0b3J5IjpbLTQ4MzA4ODI0NCwtMjUzMDgyMDA3LC0xMz
 E3OTcxNzY0LC0xMDIyMjE4NjUwXX0=
 -->
