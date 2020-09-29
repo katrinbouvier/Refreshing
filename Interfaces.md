@@ -52,21 +52,20 @@
 >## Partial Implementations
 >Когда класс реализует интерфейс, но не полностью реализует все требуемые им методы, тогда этот класс должен быть объявлен как **абстрактный**.
 >
+>Любой класс, наследующийся от `Incomplete`, должен быть объявлен как `abstract` или реализовывать интерфейс `Callback`.
+>Абстрактный класс отличается от интерфейса тем, что содержит состояние и поведение. Интерфейс содержит только поведение.
+>## Applying Interfaces
 
-   ```java
+```java
      abstract class Incomplete implements Callback {
         	int a, b;
         	void show() {
         		//...
         	}
-        }```
+        }
 
-
->Любой класс, наследующийся от `Incomplete`, должен быть объявлен как `abstract` или реализовывать интерфейс `Callback`.
->Абстрактный класс отличается от интерфейса тем, что содержит состояние и поведение. Интерфейс содержит только поведение.
->## Applying Interfaces
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY5NDYyODMwLC0xNzg2NDY2MTQ2LDUwNT
-cxODg2OV19
+eyJoaXN0b3J5IjpbLTIxMDc3OTQwMjQsLTE3ODY0NjYxNDYsNT
+A1NzE4ODY5XX0=
 -->
