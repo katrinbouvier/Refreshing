@@ -42,9 +42,9 @@
 - The TreeMap Class
 > Хранит записи в виде дерева. Гарантирует порядок элементов по возрастанию.
 - The LinkedHashMap Class
-> Сохраняет порядок элементов,
+> Сохраняет порядок элементов, хранит данные в связном списке.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTI4MzUxMjgsMTEyNjE0NTM2NSwxNz
-AxMDQyOTIsMTEzNzQ0OTYwLC0xNzc1MzkwMDY0LC0yNTMwODIw
-MDcsLTEzMTc5NzE3NjQsLTEwMjIyMTg2NTBdfQ==
+eyJoaXN0b3J5IjpbMTU3OTgwNTMyLDExMjYxNDUzNjUsMTcwMT
+A0MjkyLDExMzc0NDk2MCwtMTc3NTM5MDA2NCwtMjUzMDgyMDA3
+LC0xMzE3OTcxNzY0LC0xMDIyMjE4NjUwXX0=
 -->
