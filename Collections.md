@@ -22,9 +22,9 @@
 > - HashSet Class 
 > extends AbstractSet and implements Set interface. Created  a collection, that uses a hash table for storage. Хэшинг -- информационный контент ключа используется, чтобы определить уникальное значение, которое называется хэш код. Хэш код затем используется, как индекс, с котором ассоциированы данные, относящиеся к ключу. Хэширование происходит автоматически. HashSet не гарантирует последовательность элементов, так как процесс хэшинга обычно не сопровождается созданием отсортированного набора. (как положили, можем и не получить) Чтобы сохранить последовательность лучше использовать TreeSet.
 > - LinkedHashSet Class
-> 
+> extends HashSet. Сохраняет связный список в то
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTE2NTcxMCwxNzAxMDQyOTIsMTEzNz
+eyJoaXN0b3J5IjpbMTgzNDQwNzY3NywxNzAxMDQyOTIsMTEzNz
 Q0OTYwLC0xNzc1MzkwMDY0LC0yNTMwODIwMDcsLTEzMTc5NzE3
 NjQsLTEwMjIyMTg2NTBdfQ==
 -->
