@@ -30,10 +30,10 @@
     interface SomeFunc<T> {
     	T func(T t);
     }
->T определяет и тип параметра, и тип возвращаемого значения, поэт
+>T определяет и тип параметра, и тип возвращаемого значения, поэтому интерфейс сопоставим с лямбда-выражением.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkwOTQ4MDI5LC0yMDMzMzYwMzMsLTM4Nj
-AwNjAwNF19
+eyJoaXN0b3J5IjpbLTUxMjU4Mzg4NywtMjAzMzM2MDMzLC0zOD
+YwMDYwMDRdfQ==
 -->
