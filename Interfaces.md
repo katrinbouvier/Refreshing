@@ -63,8 +63,11 @@
         	}
         }
 ```
->## Applying Interfaces
+>## Extending Interfaces
+>Interface can extend another interface. Example:
+>class ArrayList<E> -extends-> abstract class AbstractList<E>
+>|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTkxMjgyNzgsNzA3Mjg5MzIsLTE3OD
-Y0NjYxNDYsNTA1NzE4ODY5XX0=
+eyJoaXN0b3J5IjpbNzk5NDA1MjczLC0yMDE5MTI4Mjc4LDcwNz
+I4OTMyLC0xNzg2NDY2MTQ2LDUwNTcxODg2OV19
 -->
