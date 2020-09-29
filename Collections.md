@@ -13,8 +13,8 @@
 > - E remove()
 >Элементы в очередь добавляются в голову. Разница между poll() и remove() в том, что poll() вернет null, если очередь пустая, а remove() выбросит исключение.
 >## The Deque Interface
->Определяет поведение очередт с двумя концами. 
+>Определяет поведение очередь с двумя концами. Такие очереди могут вести себя как FIFO, и как LIFO. Это обобщеннный интерфейс, расширяет Queue.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4MDg1NzQxLC0yNTMwODIwMDcsLTEzMT
-c5NzE3NjQsLTEwMjIyMTg2NTBdfQ==
+eyJoaXN0b3J5IjpbLTE3MzkzODY5MDgsLTI1MzA4MjAwNywtMT
+MxNzk3MTc2NCwtMTAyMjIxODY1MF19
 -->
