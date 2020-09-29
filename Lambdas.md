@@ -25,6 +25,7 @@
 `System.out.println(myNum.getValue());`
 > Функциональные интерфейсы следует помечать аннотацией @FunctionalInterface (purely informational). Компилятор в этом случае проверяет, что аннотируемый элемент является интерфейсом с единственным абстрактным методом. Также, страница документирующих комментариев включает в себя пояснение, что объявляемый интерфейс является функциональным.
 > Лямбда должна быть сопоставима с абстрактным методом, который она реализует.
+> Лямбда может выбросить проверяемое исключение, только если оно перечислено в а
 >## Generic Functional Interface
 
     interface SomeFunc<T> {
@@ -34,6 +35,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMjU4Mzg4NywtMjAzMzM2MDMzLC0zOD
+eyJoaXN0b3J5IjpbMTIzMTgwNTE0MiwtMjAzMzM2MDMzLC0zOD
 YwMDYwMDRdfQ==
 -->
