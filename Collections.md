@@ -32,8 +32,9 @@
  - The EnumSet Class
 > extends AbstractSet and implements Set. Специально для использования с элементами типа enum.
 >## The Map Interface
+>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MjQyMjE1OSwxMTI2MTQ1MzY1LDE3MD
-EwNDI5MiwxMTM3NDQ5NjAsLTE3NzUzOTAwNjQsLTI1MzA4MjAw
-NywtMTMxNzk3MTc2NCwtMTAyMjIxODY1MF19
+eyJoaXN0b3J5IjpbLTIwNTAwNjAxNjcsMTEyNjE0NTM2NSwxNz
+AxMDQyOTIsMTEzNzQ0OTYwLC0xNzc1MzkwMDY0LC0yNTMwODIw
+MDcsLTEzMTc5NzE3NjQsLTEwMjIyMTg2NTBdfQ==
 -->
