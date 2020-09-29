@@ -24,9 +24,11 @@
 > - LinkedHashSet Class
 > extends HashSet. Сохраняет связный список в том порядке, в котором элементы положили.
 > - The TreeSet Class
-> extends AbstractSet and implements NavigableSet interface. Создает коллекцию, которая использует для хранения дерево. Объекты хранятся в отсортированном по возрастанию порядке.
+> extends AbstractSet and implements NavigableSet interface. Создает коллекцию, которая использует для хранения дерево. Объекты хранятся в отсортированном по возрастанию порядке. Довольно быстрый поиск и получение элементов.
+> - PriorityQueue Class
+> extends AbstractQueue 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzU3MTU0MjEsMTcwMTA0MjkyLDExMz
-c0NDk2MCwtMTc3NTM5MDA2NCwtMjUzMDgyMDA3LC0xMzE3OTcx
-NzY0LC0xMDIyMjE4NjUwXX0=
+eyJoaXN0b3J5IjpbOTU4MzQ3NDEwLDE3MDEwNDI5MiwxMTM3ND
+Q5NjAsLTE3NzUzOTAwNjQsLTI1MzA4MjAwNywtMTMxNzk3MTc2
+NCwtMTAyMjIxODY1MF19
 -->
