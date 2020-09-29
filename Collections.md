@@ -37,8 +37,10 @@
 >Обеспечивает порядок записей по возрастанию, основываясь на ключах. 
  - The NavigableMap Interface
 >Мап, поддерживающий получение записей по самому близкому совпадению с ключом.
+ -The HashMap Class
+>Использует хэш таблицы для хранения записей. Не гарантирует порядок 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MjQyMTk0NiwxMTI2MTQ1MzY1LDE3MD
-EwNDI5MiwxMTM3NDQ5NjAsLTE3NzUzOTAwNjQsLTI1MzA4MjAw
-NywtMTMxNzk3MTc2NCwtMTAyMjIxODY1MF19
+eyJoaXN0b3J5IjpbMzIyNjA4MjI3LDExMjYxNDUzNjUsMTcwMT
+A0MjkyLDExMzc0NDk2MCwtMTc3NTM5MDA2NCwtMjUzMDgyMDA3
+LC0xMzE3OTcxNzY0LC0xMDIyMjE4NjUwXX0=
 -->
