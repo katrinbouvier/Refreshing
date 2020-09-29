@@ -32,9 +32,9 @@
  - The EnumSet Class
 > extends AbstractSet and implements Set. Специально для использования с элементами типа enum.
 >## The Map Interface
->
+>Сопоставляет уникальные ключи со значениями. Ключ -- это объект, по которому в дальнейшем можно получить значение. Мапы -- часть 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTAwNjAxNjcsMTEyNjE0NTM2NSwxNz
+eyJoaXN0b3J5IjpbLTEyOTY0MDY5ODEsMTEyNjE0NTM2NSwxNz
 AxMDQyOTIsMTEzNzQ0OTYwLC0xNzc1MzkwMDY0LC0yNTMwODIw
 MDcsLTEzMTc5NzE3NjQsLTEwMjIyMTg2NTBdfQ==
 -->
