@@ -27,7 +27,8 @@
 > Лямбда должна быть сопоставима с абстрактным методом, который она реализует.
 > Лямбда может выбросить проверяемое исключение, только если оно перечислено в абстрактном методе функционального интерфейса.
 >## Method References
->Ссылка на метод позволяет ссылаться на метод,
+>Ссылка на метод позволяет ссылаться на метод без его выполнения. 
+>Чтобы сослаться на статический метод используют ClassName::
 >## Generic Functional Interface
 
     interface SomeFunc<T> {
@@ -37,6 +38,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NzQ5OTMxMiwtMjAzMzM2MDMzLC0zOD
-YwMDYwMDRdfQ==
+eyJoaXN0b3J5IjpbLTE2NDE4OTk5OTUsLTg1NzQ5OTMxMiwtMj
+AzMzM2MDMzLC0zODYwMDYwMDRdfQ==
 -->
