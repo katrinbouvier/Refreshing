@@ -5,8 +5,9 @@
 >[Number 4 is schema of Collections hierarchy](https://javastudy.ru/interview/collections/)
 >Map -- это отдельный интерфейс, в Collection не входит.  Иерархия `TreeMap<K, V>` схожа с `TreeSet<E>`.
 >## The Queue Interface
->Расширяет базовый интерфейс Collection и определяет поведение о
+>Обобщенный интерфейс, расширяет базовый интерфейс Collection и определяет поведение очереди. В Queue определены методы:
+> - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNjYwMTQ3MCwtMTMxNzk3MTc2NCwtMT
+eyJoaXN0b3J5IjpbLTI1MzA4MjAwNywtMTMxNzk3MTc2NCwtMT
 AyMjIxODY1MF19
 -->
