@@ -37,10 +37,12 @@
 >Обеспечивает порядок записей по возрастанию, основываясь на ключах. 
  - The NavigableMap Interface
 >Мап, поддерживающий получение записей по самому близкому совпадению с ключом.
- -The HashMap Class
->Использует хэш таблицы для хранения записей. Не гарантирует порядок 
+ - The HashMap Class
+>Использует хэш таблицы для хранения записей. Не гарантирует порядок записей. Дефолтный размер -- 16. 
+- The TreeMap Class
+> Хранит записи в виде дерева. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIyNjA4MjI3LDExMjYxNDUzNjUsMTcwMT
+eyJoaXN0b3J5IjpbNjMxMzI3NDA2LDExMjYxNDUzNjUsMTcwMT
 A0MjkyLDExMzc0NDk2MCwtMTc3NTM5MDA2NCwtMjUzMDgyMDA3
 LC0xMzE3OTcxNzY0LC0xMDIyMjE4NjUwXX0=
 -->
