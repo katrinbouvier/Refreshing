@@ -14,27 +14,34 @@
 `() -> Math.random()*100` получает псевдо-рандомное значение, умножает на 100 и возвращает результат
 `(n) -> (n%2) == 0` вернет `true`, если `n` - четное	// можно `n -> ...`
 >## Functional Interfaces
-`interface MyNumber { double getValue(); }`
+```java
+interface MyNumber { double getValue(); }
+```
 >Лямбды не выполняются сами по себе, скорее, они формируют реализацию абстрактного метода, определенного функциональным интерфейсом, который указывает на возвращаемый тип. 
-
-`MyNumber myNum;`
-`myNum = () -> 123.45;`
+```java
+MyNumber myNum;
+myNum = () -> 123.45;
+```
 >Лямбды дают возможность трансформировать сегмент кода в объект.
 
 // Вызываем `getValue()`, который реализован заранее присвоенным лямбда-выражением
-`System.out.println(myNum.getValue());`
+```java 
+System.out.println(myNum.getValue());
+```
 > Функциональные интерфейсы следует помечать аннотацией @FunctionalInterface (purely informational). Компилятор в этом случае проверяет, что аннотируемый элемент является интерфейсом с единственным абстрактным методом. Также, страница документирующих комментариев включает в себя пояснение, что объявляемый интерфейс является функциональным.
 > Лямбда должна быть сопоставима с абстрактным методом, который она реализует.
 > Лямбда может выбросить проверяемое исключение, только если оно перечислено в абстрактном методе функционального интерфейса.
 >## Method References
 >Ссылка на метод позволяет ссылаться на метод без его выполнения. 
 >Чтобы сослаться на статический метод используют `ClassName::methodName`:
-
-`out = StringOp(MyStringsOps::strReverse, in);`
+```java
+out = StringOp(MyStringsOps::strReverse, in);
+```
 > Для вызова метода экземпляра(instance method) сначала нужно создать экземпляр класса, а затем использовать `::`.
-
+```java
 `MyStringOps strOps = new MyStringOps();`
 `out = StringOp(strOps::strReverse, in);`
+```
 >Для дженерик методов используется `className::<anyType>metodName`
 >## Generic Functional Interface
 
@@ -45,6 +52,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTE1NDI5NjksLTg1NzQ5OTMxMiwtMj
-AzMzM2MDMzLC0zODYwMDYwMDRdfQ==
+eyJoaXN0b3J5IjpbLTkyMzg0NTA2NywtMTYxMTU0Mjk2OSwtOD
+U3NDk5MzEyLC0yMDMzMzYwMzMsLTM4NjAwNjAwNF19
 -->
