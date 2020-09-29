@@ -35,6 +35,7 @@
 
 `MyStringOps strOps = new MyStringOps();`
 `out = StringOp(strOps::strReverse, in);`
+>Для дженерик методов используется `className::<anyType>metodName`
 >## Generic Functional Interface
 
     interface SomeFunc<T> {
@@ -44,6 +45,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwODI3ODc3MCwtODU3NDk5MzEyLC0yMD
-MzMzYwMzMsLTM4NjAwNjAwNF19
+eyJoaXN0b3J5IjpbLTE2MTE1NDI5NjksLTg1NzQ5OTMxMiwtMj
+AzMzM2MDMzLC0zODYwMDYwMDRdfQ==
 -->
