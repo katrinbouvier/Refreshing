@@ -12,7 +12,7 @@ try {
 ```
 >Выражение **try-with-resources** используется, например, при работе с потоками. Поток автоматически закрывается, когда выполняется блок try.
 
->*Следует помнить о [NaN](https://www.baeldung.com/java-not-a-number) при обработке ошибок. Некоторые операции с неопределенным результатом вместо выброса исключения могут вернуть NaN, -Infinity или Infinity. NaN != NaN is true.*
+>*Notice: следует помнить о [NaN](https://www.baeldung.com/java-not-a-number) при обработке ошибок. Некоторые операции с неопределенным результатом вместо выброса исключения могут вернуть NaN, -Infinity или Infinity. NaN != NaN is true.*
 
 >Блок catch нужно написать так, чтобы после выбрасывания ошибки программа продолжала работу в нормальном режиме.
 >Пример try-catch:
@@ -38,8 +38,9 @@ try {
 }
 ```
 >Чтобы после выбрасывания ошибки метод сделал все, что ему требуется (например, после чтения файла -- закрыть его), используется finally. finally выполняется в любом случае, неважно, была выброшена ошибка или нет.
+>Notice: операторы обработки исключений Java не должны рассматриваться как общий механизм нелокального ветвления. Пример(https://stackoverflow.com/questions/26134896/why-java-s-exception-handling-statements-should-not-be-considered-a-general-mech)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTYyNDk0OSwtMzc0NDI1Mjc5LC0xOT
-QxMDQ0NTYyLDEzOTU5NzkyOTEsMTg5ODk4MTU0Nyw2MjA2ODc0
-MDMsLTEyNTQzODYyNThdfQ==
+eyJoaXN0b3J5IjpbLTE0MjI2NDEzODEsMTE4MTYyNDk0OSwtMz
+c0NDI1Mjc5LC0xOTQxMDQ0NTYyLDEzOTU5NzkyOTEsMTg5ODk4
+MTU0Nyw2MjA2ODc0MDMsLTEyNTQzODYyNThdfQ==
 -->
