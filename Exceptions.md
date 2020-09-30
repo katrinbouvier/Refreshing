@@ -12,8 +12,8 @@ try {
 ```
 >Выражение **try-with-resources** используется, например, при работе с потоками. Поток автоматически закрывается, когда выполняется блок try.
 
->*Следует помнить о [NaN](https://www.baeldung.com/java-not-a-number) при обработке ошибок. Некоторые операции вместо выброса исключения могут вернуть NaN, -Infinity или Infinity.*
+>*Следует помнить о [NaN](https://www.baeldung.com/java-not-a-number) при обработке ошибок. Некоторые операции с неопределенным результатом вместо выброса исключения могут вернуть NaN, -Infinity или Infinity. NaN != NaN is true.*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg3MDU3ODA0LDE4OTg5ODE1NDcsNjIwNj
-g3NDAzLC0xMjU0Mzg2MjU4XX0=
+eyJoaXN0b3J5IjpbMTM5NTk3OTI5MSwxODk4OTgxNTQ3LDYyMD
+Y4NzQwMywtMTI1NDM4NjI1OF19
 -->
