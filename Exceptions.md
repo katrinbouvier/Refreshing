@@ -11,7 +11,8 @@ try {
 }
 ```
 >Выражение **try-with-resources** используется, например, при работе с потоками. Поток автоматически закрывается, когда выполняется блок try.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjcxNTM4NTMsNjIwNjg3NDAzLC0xMj
-U0Mzg2MjU4XX0=
+eyJoaXN0b3J5IjpbODQ4MDA2MDY1LDYyMDY4NzQwMywtMTI1ND
+M4NjI1OF19
 -->
