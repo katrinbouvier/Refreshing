@@ -15,6 +15,7 @@ try {
 >*Следует помнить о [NaN](https://www.baeldung.com/java-not-a-number) при обработке ошибок. Некоторые операции с неопределенным результатом вместо выброса исключения могут вернуть NaN, -Infinity или Infinity. NaN != NaN is true.*
 
 >Блок catch нужно написать так, чтобы после выбрасывания ошибки программа продолжала работу в нормальном режиме.
+>Пример try-catch:
 ```java
 try {
 	throw new NullPointerException("Some message");
@@ -22,7 +23,9 @@ try {
 	sout(ex.getMessage()); // will return "Some message"
 	//sout(ex); will return "exceptionClass : Some message"
 }
->Declaring that method thro
+```
+>Declaring that method throws exception:
+```java
 public void myMethod() throws IndexOutOfBoundsException {
 	//...
 	throw new IndexOutOfBoundsException();
@@ -35,7 +38,7 @@ try {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODU4MzU2NTQsLTE5NDEwNDQ1NjIsMT
-M5NTk3OTI5MSwxODk4OTgxNTQ3LDYyMDY4NzQwMywtMTI1NDM4
-NjI1OF19
+eyJoaXN0b3J5IjpbLTQzNjg5MjU3NCwtMTk0MTA0NDU2MiwxMz
+k1OTc5MjkxLDE4OTg5ODE1NDcsNjIwNjg3NDAzLC0xMjU0Mzg2
+MjU4XX0=
 -->
