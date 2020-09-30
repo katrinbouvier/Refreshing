@@ -19,7 +19,7 @@ try {
 ```java
 try {
 	throw new NullPointerException("Some message");
-} catch (NullPointerException ex) {
+} catch (NullPointerException | AnotherException ex) {
 	sout(ex.getMessage()); // will return "Some message"
 	//sout(ex); will return "exceptionClass : Some message"
 }
@@ -39,7 +39,7 @@ try {
 ```
 >Чтобы после выбрасывания ошибки метод сделал все, что ему требуется (например, после чтения файла -- закрыть его), используется finally. finally выполняется в любом случае, неважно, была выброшена ошибка или нет.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NDQyNTI3OSwtMTk0MTA0NDU2MiwxMz
-k1OTc5MjkxLDE4OTg5ODE1NDcsNjIwNjg3NDAzLC0xMjU0Mzg2
-MjU4XX0=
+eyJoaXN0b3J5IjpbMTE4MTYyNDk0OSwtMzc0NDI1Mjc5LC0xOT
+QxMDQ0NTYyLDEzOTU5NzkyOTEsMTg5ODk4MTU0Nyw2MjA2ODc0
+MDMsLTEyNTQzODYyNThdfQ==
 -->
