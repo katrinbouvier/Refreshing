@@ -38,9 +38,9 @@ try {
 }
 ```
 >Чтобы после выбрасывания ошибки метод сделал все, что ему требуется (например, после чтения файла -- закрыть его), используется finally. finally выполняется в любом случае, неважно, была выброшена ошибка или нет.
->Notice: операторы обработки исключений Java не должны рассматриваться как общий механизм нелокального ветвления. Пример(https://stackoverflow.com/questions/26134896/why-java-s-exception-handling-statements-should-not-be-considered-a-general-mech)
+>Notice: операторы обработки исключений Java не должны рассматриваться как общий механизм нелокального ветвления. [Пример](https://stackoverflow.com/questions/26134896/why-java-s-exception-handling-statements-should-not-be-considered-a-general-mech). Local branching -- когда if-else выполняется в одном месте, например, методе. Это делает код более понятным. Исп
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjI2NDEzODEsMTE4MTYyNDk0OSwtMz
-c0NDI1Mjc5LC0xOTQxMDQ0NTYyLDEzOTU5NzkyOTEsMTg5ODk4
-MTU0Nyw2MjA2ODc0MDMsLTEyNTQzODYyNThdfQ==
+eyJoaXN0b3J5IjpbMTAzNzMyNTU1MCwxMTgxNjI0OTQ5LC0zNz
+Q0MjUyNzksLTE5NDEwNDQ1NjIsMTM5NTk3OTI5MSwxODk4OTgx
+NTQ3LDYyMDY4NzQwMywtMTI1NDM4NjI1OF19
 -->
