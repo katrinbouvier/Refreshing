@@ -23,9 +23,16 @@ try {
 	//sout(ex); will return "exceptionClass : Some message"
 }
 ```
-public void myMethod() throws I
+public void myMethod() throws IndexOutOfBoundsException {
+	//...
+	throw new IndexOutOfBoundsException();
+}
+//...
+try {
+
+}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyODE4NTAwMSwtMTk0MTA0NDU2MiwxMz
+eyJoaXN0b3J5IjpbMTU0MDI0MDg1MywtMTk0MTA0NDU2MiwxMz
 k1OTc5MjkxLDE4OTg5ODE1NDcsNjIwNjg3NDAzLC0xMjU0Mzg2
 MjU4XX0=
 -->
