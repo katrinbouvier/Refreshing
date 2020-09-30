@@ -70,8 +70,11 @@ public class Main {
 ```
 >Классы, ссылки на которые есть в сериализуемом классе, должны реализовывать интерфейс Serializable или наследовать класс, который реализует этот интерфейс. Иначе -- *java.io.NotSerializableException*
 >Если пометить поле как **transient**, то оно не будет сериализовано. 
-```java transient private String brand; ```
->result: >### Car brand is null; car engine is: SuperEngine3000; 1200
+```java 
+transient private String brand; 
+```
+>result: *Car brand is null; car engine is: SuperEngine3000; 1200*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0Mzk4NDY5LC0xNTYxNTQxNTU5XX0=
+eyJoaXN0b3J5IjpbLTEwNjI4NzI2MTQsLTE1NjE1NDE1NTldfQ
+==
 -->
