@@ -14,8 +14,9 @@ try {
 
 >*Следует помнить о [NaN](https://www.baeldung.com/java-not-a-number) при обработке ошибок. Некоторые операции с неопределенным результатом вместо выброса исключения могут вернуть NaN, -Infinity или Infinity. NaN != NaN is true.*
 
+>Блок catch нужно написать так, чтобы после выбрасывания ошибки программа продолжала работу в нормальном режиме.
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODk4NjU5MjEsMTM5NTk3OTI5MSwxOD
+eyJoaXN0b3J5IjpbLTE5NDEwNDQ1NjIsMTM5NTk3OTI5MSwxOD
 k4OTgxNTQ3LDYyMDY4NzQwMywtMTI1NDM4NjI1OF19
 -->
