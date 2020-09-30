@@ -22,17 +22,20 @@ try {
 	sout(ex.getMessage()); // will return "Some message"
 	//sout(ex); will return "exceptionClass : Some message"
 }
-```
+>Declaring that method thro
 public void myMethod() throws IndexOutOfBoundsException {
 	//...
 	throw new IndexOutOfBoundsException();
 }
 //...
 try {
-
+	myMethod();
+} catch (IndexOutOfBoundsException ex) {
+	//...
 }
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MDI0MDg1MywtMTk0MTA0NDU2MiwxMz
-k1OTc5MjkxLDE4OTg5ODE1NDcsNjIwNjg3NDAzLC0xMjU0Mzg2
-MjU4XX0=
+eyJoaXN0b3J5IjpbLTEwODU4MzU2NTQsLTE5NDEwNDQ1NjIsMT
+M5NTk3OTI5MSwxODk4OTgxNTQ3LDYyMDY4NzQwMywtMTI1NDM4
+NjI1OF19
 -->
