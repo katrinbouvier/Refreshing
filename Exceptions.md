@@ -15,12 +15,16 @@ try {
 >*Следует помнить о [NaN](https://www.baeldung.com/java-not-a-number) при обработке ошибок. Некоторые операции с неопределенным результатом вместо выброса исключения могут вернуть NaN, -Infinity или Infinity. NaN != NaN is true.*
 
 >Блок catch нужно написать так, чтобы после выбрасывания ошибки программа продолжала работу в нормальном режиме.
-
+```java
 try {
-	t
+	throw new NullPointerException("Some message");
+} catch (NullPointerException ex) {
+	sout(ex.getMessage()); // will return "Some message"
+	//sout(ex); will return "exceptionClass : Some message"
 }
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTAwODAyNSwtMTk0MTA0NDU2MiwxMz
-k1OTc5MjkxLDE4OTg5ODE1NDcsNjIwNjg3NDAzLC0xMjU0Mzg2
-MjU4XX0=
+eyJoaXN0b3J5IjpbLTExNjc4NDI0OTAsLTE5NDEwNDQ1NjIsMT
+M5NTk3OTI5MSwxODk4OTgxNTQ3LDYyMDY4NzQwMywtMTI1NDM4
+NjI1OF19
 -->
