@@ -10,8 +10,8 @@ try {
 	// code to be executed after try block ends
 }
 ```
->try-with-
+>Выражение try-with-resources используется, например, при р
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNjE1NDQ0NCw2MjA2ODc0MDMsLTEyNT
+eyJoaXN0b3J5IjpbMTAwMTU5MTY4OSw2MjA2ODc0MDMsLTEyNT
 QzODYyNThdfQ==
 -->
