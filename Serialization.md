@@ -57,7 +57,8 @@ public class Main {
 		Car newCar = new Car(); 
 		 
 		// very nicely closes stream for you
-		try(ObjectInputStream oos = new ObjectInputStream(new FileInputStream("serial"))) {  
+		try(ObjectInputStream oos = new ObjectInputStream(new FileInputStream("serial"))) {
+			// 
 			newCar = (Car)oos.readObject();  
 		}  
 		catch (ClassNotFoundException | IOException e) {  
@@ -69,5 +70,5 @@ public class Main {
 ```
 >Классы, ссылки на которые есть в сериализуемом классе, должны реализовывать интерфейс Serializable или наследовать класс, который реализует этот интерфейс. Иначе -- *java.io.NotSerializableException*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjE1NDE1NTldfQ==
+eyJoaXN0b3J5IjpbMTU2Mjg4NDY3MywtMTU2MTU0MTU1OV19
 -->
