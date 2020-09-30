@@ -37,8 +37,9 @@ try {
 	//...
 }
 ```
+>Чтобы после выбрасывания ошибки метод сделал все, что ему требуется (например, после чтения файла -- закрыть его), используется finally. finallu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjg5MjU3NCwtMTk0MTA0NDU2MiwxMz
-k1OTc5MjkxLDE4OTg5ODE1NDcsNjIwNjg3NDAzLC0xMjU0Mzg2
-MjU4XX0=
+eyJoaXN0b3J5IjpbLTE0MzkyNTc0NDQsLTE5NDEwNDQ1NjIsMT
+M5NTk3OTI5MSwxODk4OTgxNTQ3LDYyMDY4NzQwMywtMTI1NDM4
+NjI1OF19
 -->
