@@ -4,7 +4,7 @@
 ```java
 try {
 	// block of code to monitor errors
-} catch (Exception e) {
+} catch (Exception ex) {
 	// exception handler
 } finally {
 	// code to be executed after try block ends
@@ -23,8 +23,9 @@ try {
 	//sout(ex); will return "exceptionClass : Some message"
 }
 ```
+public void myMethod() throws I
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjc4NDI0OTAsLTE5NDEwNDQ1NjIsMT
-M5NTk3OTI5MSwxODk4OTgxNTQ3LDYyMDY4NzQwMywtMTI1NDM4
-NjI1OF19
+eyJoaXN0b3J5IjpbLTQyODE4NTAwMSwtMTk0MTA0NDU2MiwxMz
+k1OTc5MjkxLDE4OTg5ODE1NDcsNjIwNjg3NDAzLC0xMjU0Mzg2
+MjU4XX0=
 -->
