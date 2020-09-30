@@ -10,7 +10,7 @@ try {
 	// code to be executed after try block ends
 }
 ```
->Выражение **try-with-resources** используется, например, при работе с потоками. Поток автоматически закрывается, когда выполняется блок try.
+>Выражение **try(SomeStream ss = new SomeStream(...))** используется, например, при работе с потоками. Поток автоматически закрывается, когда выполняется блок try. try-with-resources
 
 >*Notice: следует помнить о [NaN](https://www.baeldung.com/java-not-a-number) при обработке ошибок. Некоторые операции с неопределенным результатом вместо выброса исключения могут вернуть NaN, -Infinity или Infinity. NaN != NaN is true.*
 
@@ -40,8 +40,8 @@ try {
 >finally используется, чтобы после выбрасывания ошибки метод сделал все, что ему требуется (например, после чтения файла -- закрыть его). finally выполняется в любом случае, неважно, была выброшена ошибка или нет.
 >Notice: операторы обработки исключений Java не должны рассматриваться как общий механизм нелокального ветвления. [Пример](https://stackoverflow.com/questions/26134896/why-java-s-exception-handling-statements-should-not-be-considered-a-general-mech). Local branching -- когда if-else выполняется в одном месте, например, в методе. Это делает код более понятным. Если ветвление разбросано по нескольким местам, то это может сделать код менее читаемым и уязвимым.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NTE2NDE3NSwtOTk1OTYxOTc3LDExOD
-E2MjQ5NDksLTM3NDQyNTI3OSwtMTk0MTA0NDU2MiwxMzk1OTc5
-MjkxLDE4OTg5ODE1NDcsNjIwNjg3NDAzLC0xMjU0Mzg2MjU4XX
-0=
+eyJoaXN0b3J5IjpbMTA0OTM0NDQxMSwxMjY1MTY0MTc1LC05OT
+U5NjE5NzcsMTE4MTYyNDk0OSwtMzc0NDI1Mjc5LC0xOTQxMDQ0
+NTYyLDEzOTU5NzkyOTEsMTg5ODk4MTU0Nyw2MjA2ODc0MDMsLT
+EyNTQzODYyNThdfQ==
 -->
