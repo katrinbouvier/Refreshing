@@ -69,6 +69,9 @@ public class Main {
 }
 ```
 >Классы, ссылки на которые есть в сериализуемом классе, должны реализовывать интерфейс Serializable или наследовать класс, который реализует этот интерфейс. Иначе -- *java.io.NotSerializableException*
+>Если пометить поле как **transient**, то оно не будет сериализовано. 
+transient private String brand;
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2Mjg4NDY3MywtMTU2MTU0MTU1OV19
+eyJoaXN0b3J5IjpbNjg1NDYxMDcyLC0xNTYxNTQxNTU5XX0=
 -->
