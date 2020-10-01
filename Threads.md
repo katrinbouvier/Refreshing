@@ -126,8 +126,8 @@
    }
    NewThread nt = NewThread.createAndStart();
 ```
->Ключевое слово vola
+>Ключевое слово volatile используется, когда несколько потоков используют одно поле.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzQ0MzM3LDE0NDkyMDAxNDcsMTg4Nj
-MxMzIwOF19
+eyJoaXN0b3J5IjpbMTY1ODE1MTc3OCwxNDQ5MjAwMTQ3LDE4OD
+YzMTMyMDhdfQ==
 -->
