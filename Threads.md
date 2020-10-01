@@ -126,6 +126,8 @@
    }
    NewThread nt = NewThread.createAndStart();
 ```
+>Ключевое слово vola
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0OTIwMDE0NywxODg2MzEzMjA4XX0=
+eyJoaXN0b3J5IjpbLTE4MzQ0MzM3LDE0NDkyMDAxNDcsMTg4Nj
+MxMzIwOF19
 -->
