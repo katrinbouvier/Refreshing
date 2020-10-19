@@ -46,7 +46,8 @@
 >
 >**RIGHT OUTER JOIN** -- несимметричный оператор. Сначала выполняется INNER JOIN для таблиц, затем в результат будут добавлены оставшиеся записи из правой таблицы, замененные на NULL.
 >``left_table RIGHT JOIN right_table ON left_table.id = right_table.fk_id;``
->CROSS JOIN
+>
+>**CROSS JOIN** -- симметричный оператор. Декартово произведение 2-х таблиц, то есть из таблицы с 2мя строками и из таблицы с 3мя строками получим таблицу с 6ю строками. Все возможные комбинации.
 >## SQL Queries Order
 >FROM + JOIN
 >WHERE
@@ -56,6 +57,6 @@
 >ORDER BY
 >LIMIT
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODQ5NTMwOTMsMTQzOTg0OTU5Myw3OT
+eyJoaXN0b3J5IjpbLTE1NTUwNzcxMTAsMTQzOTg0OTU5Myw3OT
 AyOTQyNDNdfQ==
 -->
