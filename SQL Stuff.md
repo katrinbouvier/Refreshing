@@ -48,7 +48,7 @@
 >``left_table RIGHT JOIN right_table ON left_table.id = right_table.fk_id;``
 >
 >**CROSS JOIN** -- симметричный оператор. Декартово произведение 2-х таблиц, то есть из таблицы с 2мя строками и из таблицы с 3мя строками получим таблицу с 6ю строками. Все возможные комбинации строк.
->``table_1, table_2 ON table1.id = table2.fk_id;``
+>``FROM table_1, table_2 ...``
 >## SQL Queries Order
 >FROM + JOIN
 >WHERE
@@ -58,6 +58,6 @@
 >ORDER BY
 >LIMIT
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjU4Mjc5MjgsMTQzOTg0OTU5Myw3OT
+eyJoaXN0b3J5IjpbLTE0ODIwNDE4NjgsMTQzOTg0OTU5Myw3OT
 AyOTQyNDNdfQ==
 -->
