@@ -46,6 +46,14 @@
 >
 >**RIGHT OUTER JOIN** -- несимметричный оператор. Сначала выполняется INNER JOIN для таблиц, затем в результат будут добавлены оставшиеся записи из правой таблицы, замененные на NULL.
 >``left_table RIGHT JOIN right_table ON left_table.id = right_table.fk_id;``
+>## SQL Queries Order
+>FROM + JOIN
+>WHERE
+>GROUP BY
+>HAVING
+>SELECT
+>ORDER BY
+>LIMIT
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NzA0OTE4NCw3OTAyOTQyNDNdfQ==
+eyJoaXN0b3J5IjpbMTQzOTg0OTU5Myw3OTAyOTQyNDNdfQ==
 -->
