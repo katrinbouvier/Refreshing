@@ -44,8 +44,8 @@
 >**LEFT OUTER JOIN** -- несимметричный оператор (то же самое, что и LEFT JOIN). Порядок соединения таблиц ВАЖЕН. Сначала выполняется INNER JOIN для двух таблиц, затем в результат добавляются оставшиеся строки из левой таблицы, замененные на NULL.
 >``left_table LEFT JOIN right_table ON left_table.id = right_table.fk_id;``
 >
->**RIGHT OUTER JOIN** -- несимметричный оператор. Сначала выполняится INNER JOIN для таблиц, затем в результат будут добавлены оставшиеся записи из правой таблицы, замененные на NULL.
+>**RIGHT OUTER JOIN** -- несимметричный оператор. Сначала выполняется INNER JOIN для таблиц, затем в результат будут добавлены оставшиеся записи из правой таблицы, замененные на NULL.
 >``left_table RIGHT JOIN right_table ON left_table.id = right_table.fk_id;``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkwMjk0MjQzXX0=
+eyJoaXN0b3J5IjpbMTI4NzA0OTE4NCw3OTAyOTQyNDNdfQ==
 -->
