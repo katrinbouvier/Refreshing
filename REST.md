@@ -7,10 +7,14 @@
 >## URL
 >Сопоставление запросов и URL:
 >
-|HTTP|URL |
-|--|--|
-|  |  |
-
+|HTTP|URL|Explain|
+|--|--|--|
+|GET|||
+|POST|||
+|GET|||
+||||
+||||
+||||
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NjcxMjE0NSwtNzk3MzE1NzM0XX0=
+eyJoaXN0b3J5IjpbLTEwNjIwODQxOTQsLTc5NzMxNTczNF19
 -->
