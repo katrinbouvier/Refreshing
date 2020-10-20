@@ -10,12 +10,12 @@
 |HTTP|URL|explain|кнопка
 |--|--|--|--|
 |GET|/posts|все записи|-|
-|POST|/posts|создать новую запись|""|
-|GET|/posts/new|получить страницу для создания||
+|POST|/posts|создать новую запись|"Save post"|
+|GET|/posts/new|получить страницу для создания|""|
 |GET|/posts/:id/edit|получить страницу для редактирования||
 |GET|/posts/:id|получить одну запись||
 |PATCH|/posts/:id|обновление записи||
 |DELETE|/posts/:id|удаление записи||
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTk5Nzg1NDksLTc5NzMxNTczNF19
+eyJoaXN0b3J5IjpbLTkwMjA0MzkxMiwtNzk3MzE1NzM0XX0=
 -->
