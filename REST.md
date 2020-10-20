@@ -17,5 +17,5 @@
 |PATCH|*/posts/:id*|обновление записи|"Save edited"?|
 |DELETE|*/posts/:id*|удаление записи|"Delete post"|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNDc5OTg0OSwtNzk3MzE1NzM0XX0=
+eyJoaXN0b3J5IjpbMTcxNDc5OTg0OV19
 -->
