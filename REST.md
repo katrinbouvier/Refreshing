@@ -7,15 +7,15 @@
 >## URL
 >Сопоставление запросов и URL:
 >
-|HTTP|URL|Explain|
+|HTTP|URL|explain|
 |--|--|--|
 |GET|/posts|все записи|
 |POST|/posts|создать новую запись|
 |GET|/posts/new|получить страницу для создания|
 |GET|/posts/:id/edit|получить страницу для редактирования|
-|GET|/posts/:id|получить|
-|PATCH|/posts/:id||
-|DELETE|/posts/:id||
+|GET|/posts/:id|получить одну запись|
+|PATCH|/posts/:id|обновление записи|
+|DELETE|/posts/:id|удаление записи|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzUyNDc2NCwtNzk3MzE1NzM0XX0=
+eyJoaXN0b3J5IjpbMTc3MTA0ODQ3OCwtNzk3MzE1NzM0XX0=
 -->
