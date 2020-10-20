@@ -9,13 +9,13 @@
 >
 |HTTP|URL|explain|кнопка
 |--|--|--|--|
-|GET|/posts|все записи|-|
+|GET|/posts|все записи|--|
 |POST|/posts|создать новую запись|"Save post"|
-|GET|/posts/new|получить страницу для создания|""|
-|GET|/posts/:id/edit|получить страницу для редактирования||
-|GET|/posts/:id|получить одну запись||
+|GET|/posts/new|получить страницу для создания|"Create new post"|
+|GET|/posts/:id/edit|получить страницу для редактирования|"Edit post"|
+|GET|/posts/:id|получить одну запись|--|
 |PATCH|/posts/:id|обновление записи||
 |DELETE|/posts/:id|удаление записи||
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMjA0MzkxMiwtNzk3MzE1NzM0XX0=
+eyJoaXN0b3J5IjpbLTUyMjcyMjUzOSwtNzk3MzE1NzM0XX0=
 -->
