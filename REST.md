@@ -9,13 +9,13 @@
 >
 |HTTP|URL|Explain|
 |--|--|--|
-|GET|/posts||
-|POST|/posts||
-|GET|/posts/new||
-|GET|/posts/:id/edit||
-|GET|/posts/:id||
-|PATCH|||
-|DELETE|||
+|GET|/posts|все записи|
+|POST|/posts|создать новую запись|
+|GET|/posts/new|получить страницу для создания|
+|GET|/posts/:id/edit|получить страницу для редактирования|
+|GET|/posts/:id|получить|
+|PATCH|/posts/:id||
+|DELETE|/posts/:id||
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NTI0MzgwNSwtNzk3MzE1NzM0XX0=
+eyJoaXN0b3J5IjpbMjEzMzUyNDc2NCwtNzk3MzE1NzM0XX0=
 -->
